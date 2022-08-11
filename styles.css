@@ -168,6 +168,36 @@ main {
 #carousel-5:checked ~ .control-5 ~ .carousel-indicators li:nth-child(5) .carousel-bullet{
     color: #5cc7b2;
 }
+.form-group{
+  width: 80px;
+}
+textarea:focus, input:focus, input[type]:focus {
+  border-color: #5cc7b2;
+  box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 8px rgba(86, 230, 186, 0.6);
+  outline: 0 none;
+}
+ form div input[name="campo"]{
+  font-size: 100%;
+  outline: none;
+  width: 400px;
+  height: 30px;
+  display: table-cell; 
+  vertical-align: middle;
+  border: 1px solid #ccc;
+}
+#contactanos {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+.tipo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#titulos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 footer {
   text-align: center;
 }

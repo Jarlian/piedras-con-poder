@@ -18,52 +18,51 @@
     </header>
 
     <main>
-      <h1 align="center">Contactanos</h1>
+      <h1 align="center">Contáctanos</h1>
+    <div id="titulos">
+      <h2 class="titulo">Déjanos tus datos</h2>
+      <h2 class="titulo">Escribenos</h2>
+    </div>
+      <div id="contactanos">
+        <div id="formulario" class="tipo">
+          <form action="">
+            <div class="form-group">
+              <label for="">Nombre</label>
+              <input type="text" name="campo" placeholder="Introduce tu nombre..."/><br>
+            </div>
+            <div class="form-group">
+              <label for="">Correo</label>  
+              <input type="email" name="campo" placeholder="Introduce tu correo..."/> <br>
+            </div>
+            <div class="form-group">       
+              <label for="">Teléfono</label>
+              <input type="tel" name="campo" placeholder="Introduce tu teléfono..."/><br>
+            </div>  
+            <div class="form-group">
+              <label for="">Edad</label>
+              <input type="number" value="" min="11" max="100" step="1" placeholder="Introduce tu edad..."/><br>
+            </div>  
 
-      <form action="">
-        <input type="text" />
-        <input type="number" />
-        <input type="month" />
-        <input type="color" />
-        <input type="file" />
-        <input type="email" />
-        <input type="tel" />
-        <label for="">Contraseña</label>
-        <input type="password" />
-        <input type="datetime-local">
-        <input type="search">
-        <input type="url">
-        <input type="week">
-        <textarea id="" name="" cols="30" rows="10"></textarea>
-
-        <input type="checkbox" />
-        <input type="checkbox" />
-        <label for="range_1">
-          <input id="range_1" type="radio" name="age_range" value="18-25">
-          18-25
-        </label>
-        <label for="range_2">
-          <input id="range_2" type="radio" name="age_range", value="26-34">
-          26-34
-        </label>
-
-        <select id="" name="">
-          <optgroup label="Grandes ciudades">
-            <option value="">Bogota</option>
-            <option value="">Medellin</option>
-            <option value="">Cali</option>
-            <option value="">Cartagena</option>
-          </optgroup>
-          <optgroup label="Pueblos">
-            <option value="">Cartago</option>
-            <option value="">Villeta</option>
-          </optgroup>
-        </select>
-        <input type="submit" value="Enviar">
-        <button type="submit">Enviar</button>
-
-      </form>
-
+            <p>Seleccione los cuarzo en los que tiene interés:</p>
+              <input type="radio" id="onix" value="c-onix">
+              <label for="onix">Curazo Ónix</label><br>
+              <input type="radio" id="amatista" name="piedra" value="c-amatista">
+              <label for="amtista">Cuarzo Amatista/label><br>  
+              <input type="radio" id="azul" name="piedra" value="c-azul">
+              <label for="azul">Cuarzo Azul</label><br>
+              <input type="radio" id="rosa" name="piedra" value="c-rosa">
+              <label for="azul">Cuarzo Rosa</label><br>
+              <input type="radio" id="rojo" name="piedra" value="c-rojo">
+              <label for="azul">Cuarzo Rojo</label><br><br>
+              <input type="submit" value="Submit">
+          </form>
+        </div>
+        <div id="redes" class="tipo">
+          <img src="./imagenes/facebook.png" alt="facebook" width="100" height="100">
+          <img src="./imagenes/whatsapp.png" alt="whatsapp" width="100" height="100">
+          <img src="./imagenes/instagram.png" alt="instagram" width="100" height="100"> 
+        </div>
+      </div>  
     </main>
     <footer>
       <p>Derechos reservados Piedras con poder 2022</p>
